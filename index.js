@@ -57,8 +57,8 @@ const allGameChangers = [
     {name:"Odwa",surname:"Khambula",place:"Eastern Cape-Flagstaff",course:"Bachelor of social science",room:76},
     {name:"Unam",surname:"Ngxale",place:"Gauteng-Pretoria",course:"Astrophysics",room:56},
     {name:"Mavela",surname:"Malwane",place:"Mpumalanga",course:"Bsc in Phyics-Engineering studies",room:58},
-    {name:"Theo",surname:"Motshelabola",place:"North West",course:"LLB Law",room:51}
-
+    {name:"Theo",surname:"Motshelabola",place:"North West",course:"LLB Law",room:51},
+    {name:"Neo",surname:"Malimabe",place:"Free State-Qwaqwa",course:"Bsc in Construction Economics and Management",room:48}
 ];  
 function Login(){
     const name=document.getElementById("name-login").value;
