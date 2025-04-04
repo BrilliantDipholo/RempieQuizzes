@@ -61,8 +61,8 @@ const allGameChangers = [
     {name:"Neo",surname:"Malimabe",place:"Free State-Qwaqwa",course:"Bsc in Construction Economics and Management",room:48}
 ];  
 function Login(){
-    const name=document.getElementById("name-login").value;
-    const password=document.getElementById("password").value;
+    const name=document.getElementById("name-login").value.trim();
+    const password=document.getElementById("password").value.trim();
     if(findName(name) && verifyPassword(password)){
         //Allow access
         document.getElementById("invalidCredentials").classList.add("hide");
