@@ -1,0 +1,285 @@
+body{
+    font-family:arial;
+    background-color:rgb(32, 32, 89);
+    color:white;
+    margin:0;
+    display:flex;
+    flex-direction:column;
+    height:100%;
+    /* padding-bottom:200px; */
+}
+header{
+    background:linear-gradient(to top,#185c9400,#224e7bbd),url("Armentum-Logo-Blue.jpeg");
+    background-position:center;
+    border-bottom:2px solid white;
+    margin-bottom:0px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height:180px;
+}
+header,main{
+    display:flex;
+    justify-content: center;
+}
+main{
+    width:100%;
+    min-height:900px;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    flex:1;
+}
+.fill-in-quiz section{
+    display:flex;
+    justify-content: center;
+    background-color: #10436a65 ;
+    border:2px solid #10605e5d;
+    padding:30px 20px 30px 20px;
+    margin:0;
+    border-radius:18px;
+    max-width:700px;
+}
+.fill-in-quiz{
+    display: flex;
+    justify-content: center;
+    width:100%;
+    margin:40px 0 40px 0;
+    padding:0;
+}
+.picture span{
+    font-family: impact;
+    font-weight:bold;
+    font-size:52px;
+}
+.fill-in-quiz .form,.picture{
+    display:flex;
+    flex-direction:column;
+}
+.fill-in-quiz .form{
+    max-width:500px;
+    padding-top:69px;
+    row-gap:10px;
+}
+.labels{
+    display:flex;
+    flex-direction:column;
+    align-items: right;
+}
+.after-choosing-quiz{
+    display:flex;
+    justify-content:center;
+    width:200px;
+    margin-top:20px;
+}
+.after-choosing-quiz button{
+    background-color:rgba(121, 205, 37, 0.862);
+    width:90px;
+    border:1px solid #000;
+    padding:4px;
+    font-size:18px;
+    border-radius:8px;
+}
+
+
+.fill-in-quiz input{
+    margin-left:20px;
+    height:20px;
+    padding:10px;
+    font-size:20px;
+    border-radius:7px;
+}
+.fill-in-quiz select{
+    max-width:400px;
+    margin-left:20px;
+    height:28px;
+    padding:2px;
+    font-size:18px;
+    border-radius:4px;
+}
+.fill-in-quiz img{
+    max-width:300px;
+}
+.fill-in-quiz .buttons{
+    margin-top:19px;
+    margin-left:14px;
+    border-top-right-radius:10px;
+    border-top-left-radius:10px;
+}
+.fill-in-quiz button{
+    border:1px solid #000;
+    width:100px;
+    font-size:19px;
+    font-weight:bold;
+    color:rgb(230, 230, 236);
+    height:30px;
+    border-radius:6px;
+    background-color:#085fe1;
+    margin-left:6px;
+}
+
+.marks{
+    background-color:rgba(32, 131, 218, 0.592);
+    width:400px;
+    border-radius:10px;
+    border:1px solid #fffcfca8;
+    height:200px;
+    color:#eeeded;
+    text-align: center;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+}
+.marks span{
+    font-size:20px;
+    font-weight:bold;
+    display:block;
+    margin-bottom:14px;
+}
+.marks button{
+    background-color:rgba(121, 205, 37, 0.862);
+    width:120px;
+    border-radius:8px;
+    font-weight:bold;
+    color:rgb(25, 25, 25);
+    height:40px;
+    font-weight:bold;
+    font-size:19px;
+    border:1px solid #333;
+}
+#displayMarks{
+    font-style: italic;
+    font-weight:bold;
+    font-size:19px;
+    margin-left:20px;
+}
+.reviewPage{
+    background-color:#ffffff84;
+    color:#000;
+    margin-top:40px;
+    margin-bottom:200px;
+    border-radius:9px;
+}
+.reviewPage figure img{
+    width:200px;
+}
+.reviewPage figure{
+    display:flex;
+    column-gap:10px;
+}
+.reviewPage div:last-child{
+    border:none;
+    padding:none;
+}
+.reviewPage .firstRowReview div,.reviewPage .secondRowReview div,.reviewPage .thirdRowReview div{
+    border:1px solid #000;
+    border-radius:10px;
+    padding:11px;
+    max-width:510px;
+    margin:10px;
+    display:inline-block;
+}
+.reviewPage h2{
+    text-align:center;
+    font-family:Arial, Helvetica;
+    color:#000;
+    font-weight:bold;
+    font-size:30px;
+    border-bottom:3px solid #000;
+}
+.firstRowReview,.secondRowReview,.thirdRowReview{
+    display:flex;
+    align-items:center;
+}
+.start-again-button button{
+    width:200px;
+    height:50px;
+    font-weight:bold;
+    font-size:20px;
+    border:1px solid #393737;
+    margin:10px;
+    color:#ffffffdc;
+    background-color:rgba(59, 59, 231, 0.902);
+}
+.reviewPage figure figcaption{
+    display:flex;
+    flex-direction:column;
+    row-gap:8px;
+}
+.reviewPage figure figcaption span{
+    font-size:18px;
+}
+.hide{
+    display:none;
+}
+footer{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size:18px;
+    background-color: #00000091;
+    height:150px;
+}
+
+
+@media (max-width:1185px){
+    .firstRowReview,.secondRowReview,.thirdRowReview{
+        display:flex;
+        flex-direction:column;
+    }
+}
+@media (max-width: 768px) {
+    header {
+        height: 120px;
+    }
+    
+    .fill-in-quiz section {
+        width: 95%;
+    }
+    
+    .fill-in-quiz input, .fill-in-quiz select {
+        font-size: 14px;
+    }
+    
+    .marks {
+        width: 90%;
+    }
+}
+@media (max-width:770px){
+    .fill-in-quiz section{
+        display:flex;
+        flex-direction:column;
+        row-gap:10px;
+        align-items:center;
+        justify-content: center;
+        max-width:400px;
+    }
+    .fill-in-quiz section .form{
+        display:flex;
+        flex-direction:column;
+        margin:0;
+        padding:0;
+    }
+}
+@media (max-width: 480px) {
+    header {
+        height: 100px;
+    }
+    
+    .fill-in-quiz section {
+        padding: 15px;
+    }
+    
+    .fill-in-quiz input, .fill-in-quiz select {
+        font-size: 12px;
+    }
+    
+    .marks {
+        width: 100%;
+        padding: 10px;
+    }
+}
