@@ -40,9 +40,13 @@ main{
 .rules h2{
     text-align: center;
 }
+.rules{
+    padding:10px 20px 10px 20px;
+    border:1px solid #ddd;
+}
 .rules li{
     list-style:none;
-    font-size:20px;
+    font-size:16.5px;
     margin-bottom:8px;
 }
 .fill-in-quiz section{
