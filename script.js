@@ -13,7 +13,7 @@ const allGameChangers = [
     { name: "Zipho", surname: "Mabentsela", place: "Eastern Cape", course: "Bcom Accounting", room: 17 },
     {name:"Percy", surname:"Khoza",place:"Limpopo",course:"LLB Law",room:38},
     {name:"Sanele",surname:"Dyantyi",place:"Ladysmith",course:"Bachelor of social science",room:10},
-    {name:"Phalanndwa",surname:"Ndingoho",place:"Venda",course:"Bsc Construction economics & Management",room:65},
+    {name:"Phalanndwa",surname:"Ndingoho",place:"Venda",course:"Bsc Construction economics & Management",room:64},
     {name:"Asanda",surname:"Bhengu",place:"KZN-Durban",course:"LLB Law",room:4},
     {name:"Lethu",surname:"Kubheka",place:"Free state-Harrismith",course:"Bcom Law",room:69},
     {name:"Sibongakonke",surname:"Mhlekwa",place:"Gauteng-Germiston",course:"Bsc IT With Computer Science & Chemistry",room:13},
