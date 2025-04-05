@@ -3,28 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
-    <link rel="stylesheet" href="index.css">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Armentum</h1>
+        <h1>Armentum rempie quiz</h1>
     </header>
     <main>
-        <section>
-            <span>Welcome to GameChangers online rempie session.Start by logging in to proceed</span>
-            <div>
-                <h2>Login</h2>
-                <input type="text" id="name-login" placeholder="Enter Name">
-                <input type="password" id="password" placeholder="Enter password">
-                <span id="invalidCredentials" class="hide">Invalid Credentials</span>
-                <button onclick="Login()">submit</button>
+        <div class="quiz-choosing" id="quiz-choosing">
+            <div class="rules">
+                <h2>Rules for the quiz:</h2>
+                <li>1.The name must start with capital letter and entered correctly</li>
+                <li>2.The surname must start with a capital letter and entered correctly</li>
+                <li>3.Every question is worth 1 Mark</li>
+                <li>4.You only get the 1 mark if the whole rempie is correct</li>
             </div>
-        </section>
+            <h2>Click button below to start quiz:</h2>
+            <div class="after-choosing-quiz">
+                <button id="start-quiz">Start</button>
+            </div>
+        </div>
+        <div class="fill-in-quiz hide" id="fill-quiz">
+            <section>
+                <div class="picture">
+                    <span>GameChanger</span>
+                    <img src="" id="photo" alt="photo">
+                </div>
+                <div class="form">
+                    <input type="text" id="personname" placeholder="Name">
+                    <input type="text" id="personsurname" placeholder="Surname">
+                    <select name="place" id="personplace">
+                        <!--The places options will go here-->
+                    </select>
+                    <select name="course" id="personcourse">
+                        <!--The courses options will go here-->
+                    </select>
+                    <input type="number" id="personroom" placeholder="Room number">
+                    <div class="buttons">
+                        <button id="nextPhoto">next</button>
+                        <span id="displayMarks"></span>
+                        <button class="hide" id="submitQuiz">Submit</button>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="marks hide" id="marks">
+            <span id="markObtained"></span>
+            <button id="reviewButton">Review</button>
+        </div>
+        <div class="reviewPage hide" id="reviewPage">
+        </div>
     </main>
-    <footer>
+    <footer id="footer">
         <p>&copy;GameChangers.All Rights Reserved.</p>
     </footer>
-    <script src="index.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
