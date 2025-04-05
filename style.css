@@ -21,17 +21,29 @@ header{
     background-size: cover;
     height:180px;
 }
+
 header,main{
     display:flex;
     justify-content: center;
 }
+.quiz-choosing{
+    margin-top:-300px;
+}
 main{
     width:100%;
-    min-height:900px;
+    min-height:810px;
     display:flex;
     flex-direction:column;
     align-items: center;
     flex:1;
+}
+.rules h2{
+    text-align: center;
+}
+.rules li{
+    list-style:none;
+    font-size:20px;
+    margin-bottom:8px;
 }
 .fill-in-quiz section{
     display:flex;
@@ -70,14 +82,15 @@ main{
     align-items: right;
 }
 .after-choosing-quiz{
-    display:flex;
-    justify-content:center;
+    /* display:flex;
+    justify-content:center; */
     width:200px;
     margin-top:20px;
 }
 .after-choosing-quiz button{
-    background-color:rgba(121, 205, 37, 0.862);
-    width:90px;
+    background-color:rgb(37, 37, 234);
+    color:white;
+    width:140px;
     border:1px solid #000;
     padding:4px;
     font-size:18px;
@@ -247,6 +260,15 @@ footer{
     
     .marks {
         width: 90%;
+    }
+}
+@media (max-width:602px){
+    .reviewPage figure{
+        display:flex;
+        flex-direction:column;
+    }
+    .reviewPage .firstRowReview div,.reviewPage .secondRowReview div,.reviewPage .thirdRowReview div{
+        width:94%;
     }
 }
 @media (max-width:770px){
