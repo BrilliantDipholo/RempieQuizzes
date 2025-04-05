@@ -37,7 +37,7 @@ main{
     align-items: center;
     flex:1;
 }
-.rules h2{
+h2{
     text-align: center;
 }
 .rules{
@@ -86,9 +86,9 @@ main{
     align-items: right;
 }
 .after-choosing-quiz{
-    /* display:flex;
-    justify-content:center; */
-    width:200px;
+    display:flex;
+    justify-content:center;
+    width:100%;
     margin-top:20px;
 }
 .after-choosing-quiz button{
