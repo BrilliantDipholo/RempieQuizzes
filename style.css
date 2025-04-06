@@ -241,7 +241,20 @@ footer{
     background-color: #00000091;
     height:150px;
 }
-
+.about{
+    margin-top:-150px;
+}
+button{
+    cursor:pointer;
+}
+.about-p{
+    text-align:center;
+}
+@media (min-width:1046px){
+    .about-p{
+        width:1046px;
+    }
+}
 
 @media (max-width:1185px){
     .firstRowReview,.secondRowReview,.thirdRowReview{
