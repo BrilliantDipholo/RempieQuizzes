@@ -104,7 +104,6 @@ h2{
 
 .fill-in-quiz input{
     width:300px;
-    margin-left:20px;
     height:20px;
     padding:10px;
     font-size:20px;
@@ -112,7 +111,6 @@ h2{
 }
 .fill-in-quiz select{
     width:323px;
-    margin-left:20px;
     height:28px;
     padding:2px;
     font-size:18px;
