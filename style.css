@@ -103,6 +103,7 @@ h2{
 
 
 .fill-in-quiz input{
+    width:300px;
     margin-left:20px;
     height:20px;
     padding:10px;
@@ -110,7 +111,7 @@ h2{
     border-radius:7px;
 }
 .fill-in-quiz select{
-    max-width:400px;
+    width:323px;
     margin-left:20px;
     height:28px;
     padding:2px;
@@ -245,7 +246,7 @@ button{
     cursor:pointer;
 }
 .about{
-    margin-top:150px;
+    margin-top:203px;
 }
 .about-p{
     text-align:center;
