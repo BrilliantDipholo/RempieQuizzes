@@ -244,6 +244,9 @@ footer{
 button{
     cursor:pointer;
 }
+.about{
+    margin-top:100px;
+}
 .about-p{
     text-align:center;
 }
