@@ -172,7 +172,7 @@ document.getElementById("nextPhoto").onclick = function () {
     const num = getRandomImage();
     getCourses(num);
     getPlaces(num);
-    const name = document.getElementById("personname").value;
+    const name = document.getElementById("personname").value.trim();
     const surname = document.getElementById("personsurname").value.trim();
     const room = parseInt(document.getElementById("personroom").value, 10);
     if(name===allGameChangers[quizImages[count]].name){
